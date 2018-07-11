@@ -1,0 +1,19 @@
+.container-innovation-digital{
+    padding: 120px 0;
+}
+.featured-innovation-digital .row:nth-of-type(1){
+    padding: 15px 15px 0 15px;
+}
+.featured-innovation-digital .row:nth-of-type(2){
+    padding: 0px 15px 0 15px;
+}
+.featured-innovation-digital .row .col-md-4{
+    padding:0;
+}
+.title-innovation-digital{
+    margin-bottom: 105px;
+}
+a.btn-case{
+    margin-top: 90px;
+    width: initial;
+}

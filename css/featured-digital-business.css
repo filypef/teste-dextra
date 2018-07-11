@@ -1,0 +1,68 @@
+.container-digital-business{
+    padding: 120px 0;
+}
+.featured-digital-business{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.featured-digital-business:nth-of-type(1){
+    height: 370px;
+}
+.featured-digital-business:nth-of-type(1),
+.featured-digital-business:nth-of-type(6){
+    width: 39%;
+}
+.featured-digital-business:nth-of-type(6){
+    height: 181px;
+}
+.featured-digital-business:nth-of-type(2),
+.featured-digital-business:nth-of-type(4),
+.featured-digital-business:nth-of-type(7){
+    width: 34%;
+    height: 181px;
+}
+.featured-digital-business:nth-of-type(3),
+.featured-digital-business:nth-of-type(5),
+.featured-digital-business:nth-of-type(8){
+    width: 24%;
+    height: 181px;
+}
+.title-digital-business{
+    margin-bottom: 130px;
+}
+.featured-digital-business h3{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.featured-digital-business img{
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    transition: transform .2s ease;
+}
+
+.featured-digital-business:hover img{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px){
+    .featured-digital-business{
+        width: 46%!important;
+        height: 150px!important;
+        margin: 6px!important;
+    }
+    .featured-digital-business h3{
+        font-size: 0.8rem;
+    }
+}

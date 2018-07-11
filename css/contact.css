@@ -1,0 +1,103 @@
+.container-contact{
+    padding: 70px 0;
+}
+.list-social-networks li{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    margin-right: 44px;
+}
+.list-social-networks a{
+    text-indent: -99999px;
+    display: inline-block;
+}
+.list-social-networks li a{
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/ico-social-networks.png');
+    background-repeat: no-repeat;
+}
+.list-social-networks li a.ico-facebook{
+    background-position: 10px 5px;
+}
+.list-social-networks li a.ico-linkedin{
+    background-position: -90px 5px;
+}
+.list-social-networks li a.ico-youtube{
+    background-position: -188px 7px;
+}
+.list-social-networks li a.ico-twitter{
+    background-position: -285px 7px;
+}
+.list-social-networks li a.ico-google{
+    background-position: -385px 7px;
+}
+.title-contact{
+    margin-bottom: 90px;
+    font-weight: 600;
+}
+.container-contact-options{
+    margin-top: 158px;
+}
+.contact-option-email,
+.contact-option-phone{
+    border-right: 1px solid #484848;
+    min-height: 287px;
+    text-align: center;
+}
+.contact-option-email{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.contact-option-phone{
+    font-size: 1.3rem;
+}
+.contact-option-address{
+    line-height: 1.8rem;
+}
+.ico-email:before,
+.ico-phone:before,
+.ico-address:before{
+    content: '';
+    width: 74px;
+    height: 74px;
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/ico-contacts.png);
+    background-repeat: no-repeat;
+}
+.ico-email:before{
+    margin-bottom: 92px;
+}
+.ico-phone:before{
+    background-position: -397px 0px;
+    margin-bottom: 70px;
+}
+.ico-address:before{
+    background-position: -799px 0px;
+    margin-bottom: 38px;
+}
+.phone-campinas{
+    margin-bottom: 20px;
+}
+.phone-number{
+    font-weight: 700;
+}
+.title-address{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px){
+    .list-social-networks{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .list-social-networks li{
+        margin-right: 0;
+    }
+    .contact-option-email,
+    .contact-option-phone{
+        border-right: 0;
+    }
+}

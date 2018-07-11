@@ -1,0 +1,128 @@
+.container-header{
+    position: relative;
+    margin-top: 60px;
+}
+.header-home{
+    width: 100%;
+    height: 1024px;
+    background-image: url('../images/background-header--home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#logo{
+    position: relative;
+    width: 137px;
+    height: 28px;
+    background-image: url('../images/logo-dextra--white.png');
+    text-indent: -99999px;
+    display: inline-block;
+    z-index:5;
+}
+.ico-search, .icon-menu{
+    margin-top: 10%;
+    display: inline-block;
+    text-indent: -99999px;
+}
+.ico-search{
+    width: 14px;
+    height: 14px;
+    background-image: url('../images/ico-search--white.png');
+    cursor: pointer;
+}
+.icon-menu{
+    width: 20px;
+    height: 15px;
+    background-image: url('../images/ico-menu--white.png');
+    cursor: pointer;
+}
+.container-search{
+    position: relative;
+    background-color: #484848;
+    text-align: center;
+}
+.container-search input[type='text'] {
+    width: 90%;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 15px;
+    background-color: #484848;
+}
+.container-search .btn-search{
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 38px;
+    border: 0;
+    outline: 0;
+    transform: translateY(-50%);
+    background-color: transparent;
+    background-image: url(../images/ico-search--white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+ul#lang {
+    margin-top: 10%;
+    width: 54px;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+#lang li{
+    display: inline-block;
+}
+#lang li:first-of-type{
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+}
+#lang li a{
+    color: #fff;
+}
+.container-featured--title{
+    position: relative;
+    top: 36%;
+    transform: translateY(-36%);
+    padding: 0 2rem;
+}
+.btn-read-more{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background-image: url(../images/icon-read-more--white.png);
+    background-size: cover;
+}
+.btn-read-more:hover{
+    background-image: url(../images/icon-read-more--gray.png);
+}
+.header-fixed{
+    width: 100%;
+    margin-top: 0;
+    padding: 20px 5.5555%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 3;    
+}
+.header-fixed #logo{
+    background-image: url(../images/logo-dextra-colorido.png);
+    z-index: 5;
+}
+.header-fixed #lang li a{
+    color: #484848!important;
+}
+.header-fixed #lang li:first-of-type{
+    border-right: 1px solid #484848;
+}
+.header-fixed .ico-search{
+    background-image: url(../images/ico-search--gray.png);
+}
+.header-fixed .icon-menu{
+    background-image: url(../images/ico-menu--gray.png);
+}
